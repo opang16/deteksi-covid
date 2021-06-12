@@ -2,6 +2,7 @@
 
 @section('title' , 'Ubah Data Penyebaran')
 @section('container')
+<br><br><br>
 <div class="container">
 <h1 class="mt-1"> Form Ubah Data Penyebaran  </h1>
 <form action="/{{ $id->id }}" method="POST">

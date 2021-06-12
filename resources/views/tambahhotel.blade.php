@@ -2,6 +2,7 @@
 
 @section('title' , 'Tambah Daftar Hotel')
 @section('container')
+<br><br><br>
 <div class="container">
 <h1 class="mt-1"> Form Tambah Data Hotel  </h1>
 <form action="hotel" method="POST">

@@ -2,6 +2,7 @@
 
 @section('title' , 'Ubah Data Puskesmas')
 @section('container')
+<br><br><br>
 <div class="container">
 <h1 class="mt-1"> Form Ubah Data Puskesmas  </h1>
 <form action="/puskesmas/{{ $id->id }}" method="POST">

@@ -34,7 +34,7 @@
       <div class="row mb-3">
         <div class="col-lg-7 text-center mx-auto">
           <h2 class="section-heading">Statistik COVID-19 Di DKI Jakarta</h2>
-          <p>Sumber: covid.go.id per tanggal {{ $p->tanggal }} </p>
+          <p>Sumber: corona.jakarta.go.id per tanggal {{ $p->tanggal }} </p>
         </div>
       </div>
       @if (session('status'))

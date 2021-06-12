@@ -2,6 +2,7 @@
 
 @section('title' , 'Ubah Data Hotel')
 @section('container')
+<br><br><br>
 <div class="container">
 <h1 class="mt-1"> Form Ubah Data Hotel  </h1>
 <form action="/hotel/{{ $id->id }}" method="POST">

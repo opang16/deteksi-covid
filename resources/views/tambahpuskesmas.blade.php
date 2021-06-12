@@ -2,6 +2,7 @@
 
 @section('title' , 'Tambah Daftar Puskesmas')
 @section('container')
+<br><br><br>
 <div class="container">
 <h1 class="mt-1"> Form Tambah Data Puskesmas  </h1>
 <form action="puskesmas" method="POST">

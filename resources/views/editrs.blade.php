@@ -3,6 +3,7 @@
 @section('title' , 'Ubah Data Rumah Sakit')
 
 @section('container')
+<br><br><br>
 <div class="container">
 <h1 class="mt-1"> Form Ubah Data Rumah Sakit  </h1>
 <form action="/rumah-sakit/{{ $id->id }}" method="POST">

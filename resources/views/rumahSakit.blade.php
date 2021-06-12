@@ -7,7 +7,7 @@
 <div class="container">
     <div class="row">
       <div class="col">
-          <h1 class="mt-3 text-center"> Daftar Rumah Sakit  </h1>
+          <h1 class="text-center " style="margin-top: 80px"> Daftar Rumah Sakit  </h1>
           <div class="text-left">
             @role('admin')
             <a href="tambahrumahsakit" class="btn btn-primary" type="submit">tambah</a>

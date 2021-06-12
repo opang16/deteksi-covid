@@ -69,4 +69,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
     -->
   </body>
+
+<div class="form-group row">
+  <div class="col-md-6 offset-md-4">
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+          <label class="form-check-label" for="remember">
+            {{ __('Remember Me') }}
+        </label>
+        
+          
+      </div>
+  </div>
+</div>
+
+
+@if (Route::has('password.request'))
+                                    <a class="btn btn-link" href="{{ route('password.request') }}">
+                                        {{ __('Forgot Your Password?') }}
+                                    </a>
+                                @endif
 </html>

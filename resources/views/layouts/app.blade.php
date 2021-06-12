@@ -25,24 +25,24 @@
     {{-- @yield('css') --}}
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="/fonts/icomoon/style.css">
   
-    <link rel="stylesheet" href="css2/bootstrap.min.css">
-    <link rel="stylesheet" href="css2/jquery-ui.css">
-    <link rel="stylesheet" href="css2/owl.carousel.min.css">
-    <link rel="stylesheet" href="css2/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css2/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css2/bootstrap.min.css">
+    <link rel="stylesheet" href="/css2/jquery-ui.css">
+    <link rel="stylesheet" href="/css2/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css2/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css2/owl.theme.default.min.css">
   
-    <link rel="stylesheet" href="css2/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="/css2/jquery.fancybox.min.css">
   
-    <link rel="stylesheet" href="css2/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="/css2/bootstrap-datepicker.css">
   
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="fonts/flaticon-covid/font/flaticon.css">
+    <link rel="stylesheet" href="/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="/fonts/flaticon-covid/font/flaticon.css">
   
-    <link rel="stylesheet" href="css2/aos.css">
+    <link rel="stylesheet" href="/css2/aos.css">
   
-    <link rel="stylesheet" href="css2/style.css">
+    <link rel="stylesheet" href="/css2/style.css">
   
 
 </head>
@@ -69,7 +69,7 @@
                           <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                               <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
+                                <a class="nav-link" aria-current="page" href="{{ url('/') }}">Home</a>
                               </li>
                             
                               <li class="nav-item dropdown">

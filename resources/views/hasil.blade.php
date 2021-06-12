@@ -3,12 +3,12 @@
 @section('title' , 'Hasil ')
 
 @section('container')
-<div class="container">
+<div class="container" style="margin-top: 80px">
     <br>
     <button onclick="printHasil()" class="btn btn-success" id="btnprint"> Print </button>
     <div class="row">
         <div class="col">
-                <h1 class="mt-3"> Tes </h1>
+                <h1 class="mt-3"> Hasil Tes </h1>
                 <table class="table table-borderless table-striped">
                     <thead class="bg-primary text-white">
                         <tr>
@@ -46,7 +46,9 @@
 
                     </tbody>
                 </table>
-                {{ $hasil->text->jawaban }}
+                <p> Berdasarkan hasil dari tes yang dilakukan maka didapatkan hasil sebagai berikut :</p>
+               <h2 class="fw-bold text-danger"> {{ $hasil->text->jawaban }}</h2>
+                
         </div>
     </div>
 </div>

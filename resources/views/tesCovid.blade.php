@@ -3,12 +3,12 @@
 @section('title' , 'Tes Covid')
 
 @section('container')
-
+<br><br>
     
 @role('user')
     
 
-<div class="container">
+<div class="container" style="margin-top: 80px">
     <div class="row">
         <div class="col">
             <form action="/pertanyaan" method="post">
